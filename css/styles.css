@@ -1,21 +1,15 @@
 *{
-    font-family:"Inter",sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
-}
-
-body {
     margin: 0;
     padding: 0;
-    border: 5px solid magenta;
-    background-color: rgb(43, 38, 38);
+    box-sizing: border-box;
+    font-family:"Inter",sans-serif;
+    background: /*#E9ECF8*/black;
 }
 
 main {
-    display: flex;
-    margin-left: 80px;
-    margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .input-texto {
