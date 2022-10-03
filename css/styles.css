@@ -4,9 +4,30 @@
     font-size: 32px;
     line-height: 150%;
 }
+
 body {
     margin: 0;
     padding: 0;
     border: 5px solid magenta;
     background-color: rgb(43, 38, 38);
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 90px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("img/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
 }
