@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:"Inter",sans-serif;
-    background: /*#E9ECF8*/black;
+    background: #E9ECF8;
 }
 
 main {
@@ -17,19 +17,61 @@ main {
 }
 
 .mensaje {
-    position: relative;
-    margin-top: 20px;
-    margin-left: 90px;
-    background-image: url("img/muñeco.png");
-    background-repeat: no-repeat;
-    background-position: 18px;
-    background-size: 300px;
+    position: absolute;
+  width: 400px;
+  height: 781px;
+  left: 60px;
+  top: 52px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 36px */
+  resize: none;
+
+  /* Gray/gray-400 */
+
+  color: #495057;
+  border:none;
+  background:transparent;
 }
 
 .copiar {
-    position: relative;
-    margin-top: 20px;
-    margin-left: 205px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 25px;
+    top: 660px;
+
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+ 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    text-align: center;
+  
+    /* Dark blue/dark-blue-300 */
+  
+     color: #0A3871;
+  
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+    justify-content: center;
 }
 
 .botones {
@@ -39,13 +81,73 @@ main {
 }
 
 .encriptar {
-    background-color: darkblue;
-    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+  
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+  
+    /* Dark blue/dark-blue-300 */
+  
+    background: #0A3871;
+    border-radius: 24px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    flex-grow: 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center; 
 }
 
-.desencriptar {
-    margin-left: 30px;
-}
+.desencriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+  
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+  
+    /* Light gray */
+  
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+  
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+  
+    color: #0A3871;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center;
+  }
+
 
 .informacion {
     font-size: 15px;
