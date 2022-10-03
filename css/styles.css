@@ -31,3 +31,28 @@ main {
     background-position: 18px;
     background-size: 300px;
 }
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: darkblue;
+    color:white;
+}
+
+.desencriptar {
+    margin-left: 30px;
+}
+
+.informacion {
+    font-size: 15px;
+}
