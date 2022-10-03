@@ -18,22 +18,19 @@ main {
 
 .mensaje {
     position: absolute;
-  width: 400px;
-  height: 781px;
-  left: 60px;
-  top: 52px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 150%;
-  /* or 36px */
-  resize: none;
-
-  /* Gray/gray-400 */
-
-  color: #495057;
-  border:none;
-  background:transparent;
+    width: 400px;
+    height: 750px;
+    left: 70%;
+    top: 20px;
+    padding-left: 20px;
+    padding-top: 80px;
+    /* White */
+  
+    background: #FFFFFF;
+    /* shadow */
+  
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
 }
 
 .copiar {
